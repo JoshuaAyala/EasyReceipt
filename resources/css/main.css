@@ -1,0 +1,84 @@
+body{
+    background-color: #F0F5FF;
+}
+
+.login-box {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.login-box img {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  top: 50%;
+  left: 50%;
+}
+
+.login-box label {
+  color: #333;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  background-color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-box button[type="submit"] {
+  background-color: #3c8dbc;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.login-box button[type="submit"]:hover {
+  background-color: #367fa9;
+  cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+#content{
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+  color: black; /* cambia el color del texto */
+  background-color: #74b9ff; /* cambia el color del botón activo */
+  cursor: pointer;
+}
+
+.nav-link.active:hover {
+    color: white;
+    background-color:#74b9ff;
+}
+
+.nav-pills .nav-link:not(.active) {
+    color: black;
+  }
